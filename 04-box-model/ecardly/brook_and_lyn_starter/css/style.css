@@ -1,0 +1,47 @@
+/*
+
+## Style Hints:
+
+Body Font Size = 12px
+	 Line Height = 17px
+	 Font Family = "Times New Roman", serif
+	 Font Color = #656565
+
+GO FOR IT  :D   Don't worry about getting it exact!
+
+*/
+
+body {
+  font-family: "times new roman", serif;
+  color: #656565;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+}
+
+header {
+  padding: 30px 0;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: bold;
+  opacity: .6;
+}
+
+img {
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  padding: 20px 0;
+}

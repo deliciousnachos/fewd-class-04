@@ -1,0 +1,45 @@
+h1, h2, h3, h4 {
+  margin: 15px;
+}
+
+h1 {
+  padding: 20px;
+  background-color: red;
+  border: 3px solid;
+  border-color: black;
+  box-sizing: border-box;
+  width: 100%
+}
+
+h2 {
+  padding: 8px;
+  border: 2px dashed cornflowerblue;
+  border-bottom: none;
+  border-radius: 8px;
+}
+
+p {
+  padding: 10px;
+  margin: 10px 0 0 40px;
+  background-color: blue;
+  color: white;
+  border: 3px solid;
+  border-color: black;
+
+}
+
+code {
+  background-color: white;
+  color: black;
+  padding: 2px;
+  border: 1px solid;
+}
+
+ul, ol {
+  margin-left: 80px;
+}
+
+li {
+  line-height: 28px;
+
+}

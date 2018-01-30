@@ -1,0 +1,86 @@
+/* hide/show sections */
+/* AS WE GET TO EACH PART! Delete the appropriate rule. */
+
+.selectors {
+  display: none;
+}
+
+.box-model {
+  display: none;
+}
+
+/* SELECTORS */
+
+.has-a-class {
+  background-color: salmon;
+}
+
+#has-an-id {
+  background-color: lightgreen;
+}
+
+/* BOX MODEL */
+
+
+.margin .box {
+  margin: 20px;
+  width: 100px;
+}
+
+.padding .box {
+  padding: 20px;
+
+  width: 100px;
+}
+
+.border .box {
+  width: 300px;
+  margin: 25px auto;
+}
+
+/* DISPLAY */
+
+.display .box {
+  margin: 5px;
+}
+
+.innerbox {
+  background-color: green;
+  display: inline-block;
+  padding: 20px;
+}
+
+.inline {
+  display: inline;
+}
+
+.colorful-underline {
+  border-bottom: 4px solid salmon;
+}
+
+
+.inline-block .box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.inline .box {
+  display: inline;
+}
+
+
+
+
+/* this is all setup stuff */
+
+section div .box {
+
+  background-color: lightskyblue;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.5em;
+
+}
