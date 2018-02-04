@@ -46,12 +46,13 @@ p {
   padding: 0 0 15px 0;
   font-size: 12px;
   line-height: 20px;
-  letter-spacing: .05em;
-  opacity: .8;
+  font-weight: bold;
+  letter-spacing: .02em;
+  opacity: .5;
 }
 
 a {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 20px;
   text-decoration: none;
   color: deepskyblue;
@@ -61,4 +62,5 @@ a {
 .press img {
   box-sizing: border-box;
   border: 5px solid rgba(101, 101, 101, .3);
+  padding: 1px;
 }
